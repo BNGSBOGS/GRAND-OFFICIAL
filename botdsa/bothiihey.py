@@ -1,7 +1,7 @@
 <?php 
 
 ob_start();
-$API_KEY = '1983938333:AAGlm4ajoCq94ys1zsM32Ol4ClJKU0GKtbI'; #توكنك
+$API_KEY = '2105970480:AAFBjhCuGW_P_JrtxH9s0ELRGeKbDdKj3uc'; #توكنك
 define('API_KEY',$API_KEY);
 echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
 function bot($method,$datas=[]){
